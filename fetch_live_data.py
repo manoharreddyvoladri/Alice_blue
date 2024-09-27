@@ -5,8 +5,8 @@ import datetime
 from pya3 import Aliceblue
 
 # Replace with your Aliceblue API credentials
-username = '1243674'
-api_key = 'AbLLDhIKc064Zt2d5sSdGoJPoz3fDybL247ppJHx42tWli28eKMLdoHtCSNmIhkGye1Ub3r8QhBh1xFLtDtK6R2ixO2j5k38Vki7ijzxjNLeyhAufedQkuQRgojLZKqD'
+username = '---'
+api_key = '---'
 
 # Set up the Aliceblue API client
 alice = Aliceblue(username, api_key)
@@ -68,7 +68,7 @@ def get_and_print_data():
    # Save the workbook
     get_and_print_data.workbook.save('live_data.xlsx')
 
-print(f"   Date      Time           market time              Open          Close         Difference      Profit(%)    ")
+print(f"   Date:      Time:           market time:              Open:          Close:         Difference:      Profit(%):    ")
 while True:
     get_and_print_data()
     time.sleep(25)
