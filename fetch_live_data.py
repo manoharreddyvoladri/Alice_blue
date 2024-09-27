@@ -68,7 +68,7 @@ def get_and_print_data():
    # Save the workbook
     get_and_print_data.workbook.save('live_data.xlsx')
 
-print(f"  Date      Time           market time              Open          Close         Difference      Profit(%)    ")
+print(f"   Date      Time           market time              Open          Close         Difference      Profit(%)    ")
 while True:
     get_and_print_data()
     time.sleep(25)
